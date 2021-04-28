@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">StockSimpleGP</string>
+    <string name="modo_auto">SCAN</string>
+    <string name="ultimo_codigo_Escaneado">codigo escaneado:</string>
+    <string name="proveedores">PROVEEDORES</string>
+    <string name="precios">PRECIOS</string>
+    <string name="preciosAlta">PRECIOS - ALTA</string>
+    <string name="preciosConsulta">PRECIOS - CONSULTA</string>
+    <string name="preciosModificar">PRECIOS - MODIFICAR</string>
+    <string name="stockCompras">STOCK - COMPRAS</string>
+    <string name="stockVentas">STOCK - VENTAS</string>
+    <string name="stockConsulta">STOCK - CONSULTA</string>
+    <string name="egr_grabar">REGISTRAR</string>
+    <string name="ing_grabar">REGISTRAR</string>
+    <string name="consulta">CONSULTA</string>
+    <string name="buscar">buscar</string>
+    <string name="listado">MOVIMIENTOS</string>
+    <string name="baseDatos">DATOS</string>
+    <string name="basePrecios">DATOS DE PRECIOS</string>
+    <string name="baseStock">DATOS DE STOCK</string>
+    <string name="GoogleSheet">subir a Google Sheet</string>
+    <string name="leerGoogleSheet">leer de Google Sheet</string>
+    <string name="productos">PRODUCTOS</string>
+    <string name="inicio">INICIO</string>
+    <string name="stock">STOCK</string>
+
+</resources>

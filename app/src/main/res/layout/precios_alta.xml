@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".precios_alta">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="@color/colorAccent"
+            android:text="@string/preciosAlta"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryLight"
+            android:textSize="35dp" />
+
+
+        <Button
+            android:id="@+id/btn_m_auto"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bordes_redondos"
+            android:text="@string/modo_auto"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/precioAlta_escaneo"
+            android:layout_width="300dp"
+            android:layout_height="40sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:hint="codigo"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btn_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bordes_redondos"
+                android:text="@string/buscar"
+                android:textColor="@color/colorPrimaryText"
+                android:textSize="15dp" />
+
+            <EditText
+                android:id="@+id/precio_descripcion"
+                android:layout_width="246dp"
+                android:layout_height="40sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:hint="descripcion"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="0dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingVertical="@dimen/activity_vertical_margin"
+                android:text="costo:   "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/precio_costo"
+                android:layout_width="100dp"
+                android:layout_height="40sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="0dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:paddingVertical="@dimen/activity_vertical_margin"
+                android:text="precio:   "
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:id="@+id/precio_precio"
+                android:layout_width="100dp"
+                android:layout_height="40sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="0dp"/>
+
+
+        <Button
+            android:id="@+id/btn_precio_graba"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bordes_redondos"
+            android:text="@string/ing_grabar"
+            android:textSize="25dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/btn_anteriorCompra"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bordes_redondos"
+                android:text="ultimo"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/btn_borrarCompra"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bordes_redondos"
+                android:text="borrar"
+                android:textColor="#ff0000"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
